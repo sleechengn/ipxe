@@ -5,7 +5,7 @@ apt install -y gcc git binutils make perl mtools mkisofs syslinux liblzma-dev
 
 rm -rf /opt/ipxe
 pushd /opt
-git clone http://192.168.13.80:3000/sleechengn/ipxe
+git clone https://github.com/ipxe/ipxe
 pushd /opt/ipxe/src
 
 cat > script.ipxe <<EOF
